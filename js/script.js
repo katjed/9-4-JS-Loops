@@ -101,3 +101,23 @@ drawTree(5);
 */
 
 
+// method 2 --> step 2 - alternative 
+
+/*
+function drawTree(rows) {
+    for (var i = 0; i < rows; i++) {
+        var star = '';
+
+        for (var k = 0; k <= rows - i - 2; k++)
+            star += ' ';
+
+        for (var j = 0; j <= i * 2; j++) {
+            star += '*';
+        }
+
+        console.log(star);
+    }
+}
+
+drawTree(5); 
+*/
