@@ -24,8 +24,9 @@ function drawTree(rows) {
 	for (var i = 1; i <= rows; i++) {
 		var star = '';
 
-		for (var k = 1; k <= rows - i; k++)
+		for (var k = 1; k <= rows - i; k++) {
 			star += ' ';
+		}
 
 		for (var j = 1; j <= i * 2 - 1; j++) {
 			star += '*';
@@ -45,8 +46,9 @@ function drawTree(rows) {
 	for (var i = 1; i <= rows; i++) {
 		var star = '';
 
-		for (var k = 0; k < rows - i; k++)
+		for (var k = 0; k < rows - i; k++) {
 			star += ' ';
+		}
 
 		for (var j = 0; j < i * 2 - 1; j++) {
 			star += '*';
@@ -84,17 +86,19 @@ drawTree(5);
 
 /*
 function drawTree(rows) {
-  for (var i = 0; i < rows; i++) {
-    var star = '';
+	for (var i = 0; i < rows; i++) {
+    	var star = '';
 
-    for (var k = 0; k < rows - i - 1; k++) {
-      star += " ";
-    }
-    for (var j = 0; j < i * 2 + 1; j++) {
-      star += "*";
-    }
+    	for (var k = 0; k < rows - i - 1; k++) {
+      		star += " ";
+    	}
+
+    	for (var j = 0; j < i * 2 + 1; j++) {
+      		star += "*";
+    	}
+
     console.log(star); 
-  }
+  	}
 } 
 
 drawTree(5); 
@@ -108,8 +112,9 @@ function drawTree(rows) {
     for (var i = 0; i < rows; i++) {
         var star = '';
 
-        for (var k = 0; k <= rows - i - 2; k++)
+        for (var k = 0; k <= rows - i - 2; k++) {
             star += ' ';
+        }
 
         for (var j = 0; j <= i * 2; j++) {
             star += '*';
