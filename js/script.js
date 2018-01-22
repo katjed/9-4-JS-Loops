@@ -1,4 +1,4 @@
-// method 1 --> step 1
+// Method 1 --> step 1
 
 /*
 function drawTree(rows) {
@@ -18,7 +18,7 @@ drawTree(5);
 */
 
 
-// method 1 --> step 2
+// Method 1 --> step 2
  
 function drawTree(rows) {
 
@@ -40,7 +40,7 @@ function drawTree(rows) {
 drawTree(5); 
 
 
-// method 1 --> step 2 - alternative
+// Method 1 --> step 2 - alternative
 
 /*
 function drawTree(rows) {
@@ -64,7 +64,7 @@ drawTree(5);
 */
 
 
-// method 2 --> step 1
+// Method 2 --> step 1
 
 /*
 function drawTree(rows) {   
@@ -84,7 +84,27 @@ drawTree(5);
 */
 
 
-// method 2 --> step 2
+// Method 2 --> step 1 alternative
+
+/*
+function drawTree(rows) {   
+
+	for (var i = 0; i < rows; i++) {
+		var star = '';
+
+		for (var j = 0; j <= i; j++) {
+			star += '*';
+		}
+
+		console.log(star);
+	}
+}
+
+drawTree(5); 
+*/
+
+
+// Method 2 --> step 2
 
 /*
 function drawTree(rows) {
@@ -108,7 +128,7 @@ drawTree(5);
 */
 
 
-// method 2 --> step 2 - alternative 
+// Method 2 --> step 2 - alternative 
 
 /*
 function drawTree(rows) {
